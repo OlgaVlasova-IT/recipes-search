@@ -1,0 +1,166 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.filterCont{
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /* border-top: solid 2px; */
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.showRecipeBtn {
+  background-color: transparent;
+  border: none;
+  color:#089DE3;
+  font-family: 'Hind Vadodara', sans-serif;
+font-weight: 500;
+
+}
+
+
+.filterBtn{
+  font-family: 'Hind Vadodara', sans-serif;
+  text-align: center;
+ background-color: #e1dad0; 
+ color: black;
+ /* border:2px solid #9E866B; */
+ width: 70px;
+ height: 50px;
+ border-radius: 10px;
+ border-style: none  ;
+ margin: 5px;
+ font-size: 12px;
+ 
+}
+
+.filterBtn:hover{
+  text-transform: uppercase;
+ background-color: #9E866B; 
+ color: whitesmoke;
+}
+
+
+.filterRootCont{
+ display: flex;
+ justify-content: center;
+ margin-bottom: 20px;
+ 
+}
+a {
+  text-decoration: none;
+}
+video {
+
+  object-fit: cover;
+
+  width: 100vw;
+
+  height: 100vh;
+
+  position: fixed;
+
+  top: 0;
+
+  left: 0;
+
+  z-index: -1;
+
+}
+
+.recipesContainer{
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+
+.container {
+
+  display: flex;
+
+  justify-content: center;
+
+}
+.ingredientsContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center
+}
+.listIngredients{
+  background-color: #ddd6e8;
+
+  list-style-type: none ;
+
+  text-align: left;
+}
+.search {
+  z-index: 100;
+
+  width: 100%;
+
+        padding: 12px 24px;
+
+        background-color: transparent;
+
+        font-size: 14px;
+
+        line-height: 18px;
+
+        color: #575756;
+
+        background-color: transparent;
+
+        margin-left: 0px;
+
+        box-shadow: inset 0px 0px 0px 4px #ddd6e8;
+     border-radius: 10px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+    background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
