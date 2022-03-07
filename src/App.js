@@ -18,6 +18,7 @@ const searchRecipes = (e) => {
 e.preventDefault();
 const input = document.querySelector('.search');
 setSearchTerm(input.value);
+input.value = "";
 
 
 }

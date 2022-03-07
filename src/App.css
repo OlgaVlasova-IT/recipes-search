@@ -96,10 +96,11 @@ align-items: center;
   align-items:center
 }
 .listIngredients{
-  background-color: #ddd6e8;
+  background-color: #f5f4f8;
+  opacity: 0.6;
 
   list-style-type: none ;
-
+  /* list-style: square inside; */
   text-align: left;
 }
 .search {
